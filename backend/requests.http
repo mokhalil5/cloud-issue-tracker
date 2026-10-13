@@ -1,0 +1,10 @@
+### Get all issues
+GET http://localhost:3000/api/issues
+### Create an issue
+POST http://localhost:3000/api/issues
+Content-Type: application/json
+{
+ "title": "Unable to access Wi-Fi",
+ "description": "Connection fails in Lab 2",
+ "priority": "High"
+}
